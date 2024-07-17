@@ -226,3 +226,45 @@ textarea:focus {
   background-color: #054e78;
   color: #808080;
 }
+
+.post-box {
+  padding: 1.2rem;
+  color: #fff;
+
+  display: flex;
+}
+
+.author-img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+.post-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 0.2rem 0.6rem;
+}
+
+.post-info {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+}
+
+.author-name {
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.post-info span {
+  font-size: 1.2rem;
+  color: #4a4e51;
+}
+
+.post {
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
