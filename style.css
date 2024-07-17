@@ -227,10 +227,15 @@ textarea:focus {
   color: #808080;
 }
 
-.post-box {
+.content-box {
   padding: 1.2rem;
   color: #fff;
+  border-bottom: 1px solid #2f3336;
+  display: flex;
+  flex-direction: column;
+}
 
+.post-box {
   display: flex;
 }
 
@@ -254,17 +259,46 @@ textarea:focus {
 }
 
 .author-name {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 700;
 }
 
 .post-info span {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   color: #4a4e51;
 }
 
 .post {
-  font-size: 1.4rem;
-  line-height: 1.4;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.post-interaction {
+  margin-left: 4.8rem;
+  margin-top: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-interaction a:link,
+.post-interaction a:visited {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 1.2rem;
+  color: #4a4e51;
+}
+
+.post-interaction-icon {
+  width: 2rem;
+  height: 2rem;
+  fill: #4a4e51;
+}
+
+.icon-flex {
+  display: flex;
+  gap: 1.2rem;
 }
