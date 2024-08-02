@@ -449,3 +449,30 @@ textarea:focus {
   align-items: center;
   gap: 0.6rem;
 }
+
+@media (max-width: 46.875em) {
+  html {
+    font-size: 56.25%;
+  }
+  .aside {
+    display: none;
+  }
+  .container {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 75px 1fr;
+  }
+}
+
+@media (max-width: 34.375em) {
+  html {
+    font-size: 50%;
+  }
+
+  .tweet-btn {
+    padding: 1.2rem;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    margin-left: 0.6rem;
+  }
+}
