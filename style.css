@@ -41,7 +41,7 @@ li {
   margin: 0 auto;
   padding: 0 3.2rem;
   display: grid;
-  grid-template-columns: 110px 1fr 250px;
+  grid-template-columns: 110px 1fr 350px;
 }
 
 .navbar,
@@ -301,4 +301,151 @@ textarea:focus {
 .icon-flex {
   display: flex;
   gap: 1.2rem;
+}
+
+.aside {
+  margin-left: 1.2rem;
+}
+
+.search-form {
+  position: relative;
+  margin-bottom: 1.6rem;
+}
+
+.search {
+  width: 100%;
+  padding: 1.2rem 5rem;
+  border-radius: 100px;
+  background-color: #202327;
+  border: none;
+  outline: none;
+}
+
+.search-form .search::placeholder {
+  color: #757575;
+  font-size: 1.6rem;
+}
+
+.form-search--icon {
+  width: 1.8rem;
+  height: 1.8rem;
+  fill: #757575;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(-5%, -50%);
+}
+
+.subscribe {
+  border: 1px solid #2f3336;
+  border-radius: 20px;
+  padding: 1.2rem;
+  color: #fff;
+}
+
+.subscribe-heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1.2rem;
+}
+
+.subscribe-text {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  margin-bottom: 1.6rem;
+}
+
+.btn-subscribe {
+  cursor: pointer;
+  border: none;
+  color: inherit;
+  font-weight: 700;
+  font-size: 1.6rem;
+  background-color: #1a8cd8;
+  padding: 1.2rem 2.4rem;
+  border-radius: 20px;
+}
+
+.trends {
+  border: 1px solid #2f3336;
+  margin-top: 1.6rem;
+  border-radius: 20px;
+  padding: 1.6rem;
+}
+
+.trends-heading {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.trending {
+  margin-top: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.trending-li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.right span {
+  color: #71767b;
+  font-size: 1rem;
+}
+
+.right em {
+  font-style: normal;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.trending-icon {
+  width: 1.4rem;
+  height: 1.4rem;
+  fill: #71767b;
+}
+
+.message-box {
+  position: fixed;
+  width: 35rem;
+  right: 5%;
+  bottom: 0;
+  padding: 2rem 3rem;
+  background-color: #000;
+  color: #fff;
+  box-shadow: 1.2rem 0 1.2rem #1c1c1c, -1.2rem -0.6rem 1.2rem #1c1c1c;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.msg {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.msg-icon {
+  height: 1.6rem;
+  width: 1.6rem;
+  fill: #fff;
+}
+
+.msg-icons {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
 }
